@@ -10,7 +10,29 @@ public class Book {
      
      private String author;
 
-     public Book(){
+     public Book(String name, String genre, String author){
+          this.name = name;
+          this.genre = genre;
+          this.author = author;
+     }
 
+     public void setId(int id) {
+          this.id = id;
+     }
+
+     public int getId() {
+          return id;
+     }
+
+     public String getName() {
+          return name;
+     }
+
+     public String getGenre() {
+          return genre;
+     }
+
+     public String getAuthor() {
+          return author;
      }
 }
